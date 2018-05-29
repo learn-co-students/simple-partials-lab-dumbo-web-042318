@@ -7,7 +7,7 @@ Classroom Info
 We now want to call out the oldest student in the class:
 <ul>
   <li>
-    Name: <%= @student.name %>
+    <%= render 'students/student' %>
   </li>
   <li>
     Birthday: <%= @student.birthday.strftime("%m/%d/%Y")  %>
